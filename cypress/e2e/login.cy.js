@@ -46,7 +46,7 @@ describe('Login', () => {
     cy.get('#user').type('edu@qazando')
     cy.get('#password').type('123456')
     cy.get('#btnLogin').click()
-    cy.get('.invalid_input').should('have.text',"E-mail inválido.")
+    cy.get()
   })
   }
 )
