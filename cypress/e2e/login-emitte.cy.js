@@ -7,9 +7,9 @@ describe('Login',() =>{
         //Acessar a tela de login
         cy.visit('https://app.emitte.com.br/emitte/login/')
         //digite o email
-        cy.get('#email').type('13885290000140@emissorfacil.com.br')
+        cy.get('#email').type('teste@emissorfacil.com.br')
         //digite a senha
-        cy.get('#senha').type('EmitteIOB2023!')
+        cy.get('#senha').type('senha')
         //QUANDO
         //click para entrar
         cy.get('#buscar_ie').click()
